@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>McD Home</title>
+
+        <!-- jQuery 1.8 or later, 33 KB -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+        <!-- Fotorama from CDNJS, 19 KB -->
+        <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    
+        <link rel="stylesheet" href="Style.css">
+</head>
+
+
+<body>
+
+
+        <header class="center">
+            <a href="index.html"><img src="LogoAndName.png" alt="Logo" class="centerImg"></a>
+        
+            
+            <nav class="topnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="Menu.html">Menu</a>
+                <a href="Promotions.html" >Promotions</a>
+                <a href="McDelivery.html">McDelivery</a>
+                <a href="McDApp.html">McD App</a>
+        
+                <div class="topnav-right">
+                    <a href="RestaurantLocator.html">Restaurant Locator</a>
+                    <a href="AboutUs.html">About Us</a>
+                    </div>
+            </nav>
+        </header>
+
+
+        
+        <main id="wrapper">
+
+            <div class="description">
+                <p id="welcome"> Welcome to McDonald's! </p> 
+                <p>  Here on this website you can find all the current promotions.
+                     Order your meal here and we'll deliver it to you! </p>
+            </div>
+        
+            
+            <!-- Add images to <div class="fotorama"></div> -->
+            <div class="fotorama" >
+                <img src="home1.jpg" alt="Home Image 1">
+                <img src="home2.jpg" alt="Home Image 2">
+                <img src="home3.jpg" alt="Home Image 3">
+                <img src="home4.jpg" alt="Home Image 4">
+                <img src="home5.jpg" alt="Home Image 5">
+                <img src="home6.jpg" alt="Home Image 6">
+                <img src="home7.png" alt="Home Image 7">
+            </div>
+            
+            <script>
+                $('.fotorama').fotorama({
+                width: 2000,
+                maxwidth: '100%',
+                ratio: 16/9,
+                allowfullscreen: true,
+                nav: 'thumbs'
+                });
+            </script>
+
+        </main>
+        <br><br><br><br>
+
+
+            <footer>
+                <nav>
+                <a href="ContactUs.html" class="footNav">Contact Us</a>
+                <a href="Q&A.html" class="footNav">Q&A</a>
+                </nav>
+                <br>
+        
+                Copyright &copy; 2021 McDonald's Inc
+                
+                <br>
+                <a href="mailto:yourfirstname@support@mcd.com" class="whiteText">support@mcd.com</a>
+            </footer>
+</body>
+
+</html>

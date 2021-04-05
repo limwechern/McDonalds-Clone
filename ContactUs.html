@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McD Contact Us</title>
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header class="center">
+        <a href="index.html"><img src="LogoAndName.png" alt="Logo" class="centerImg"></a>
+        
+        <nav class="topnav">
+            <a href="index.html">Home</a>
+            <a href="Menu.html">Menu</a>
+            <a href="Promotions.html">Promotions</a>
+            <a href="McDelivery.html">McDelivery</a>
+            <a href="McDApp.html">McD App</a>
+    
+            <div class="topnav-right">
+                <a href="RestaurantLocator.html">Restaurant Locator</a>
+                <a href="AboutUs.html">About Us</a>
+                </div>
+        </nav>
+    </header>
+
+    <main id="ContactUs">
+        <h1 class="title">Contact Us</h1>
+        <div class="border">
+            <form action="action.php" method="POST">
+                <div class="row1">
+                    <div class="column">
+                        <label>Name:</label><input type="text" size="30" placeholder="Enter your name" autofocus required>
+                    </div>
+                    <div class="column">
+                        <label>Contact Number:</label><input type="tel" size="30" pattern="[0-9]{3}-[0-9]{7}" placeholder="012-3456789" required>
+                    </div>
+                    <div class="column">
+                        <label>Email Address:</label><input type="email" size="30" required>
+                    </div>
+                    <br><br>
+                </div>
+                <div class="commentLabel">
+                    <label>Comments:</label>
+                </div>
+                <textarea cols="150" rows="10"></textarea>
+                <input type="submit">
+            </form>
+        </div>
+
+            <br><br> 
+
+        <br><br><br><br><br><br><br>
+    </main>
+
+    <footer>
+        <nav>
+        <a href="ContactUs.html" class="footNav">Contact Us</a>
+        <a href="Q&A.html" class="footNav">Q&A</a>
+        </nav>
+        <br>
+
+        Copyright &copy; 2021 McDonald's Inc
+        
+        <br>
+        <a href="mailto:yourfirstname@support@mcd.com" class="whiteText">support@mcd.com</a>
+    </footer>
+</body>
+</html>
+

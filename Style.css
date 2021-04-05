@@ -1,0 +1,811 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  position: relative;
+  background-color: #000000;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FFD700;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #FF0000;
+  color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+@media only screen and (max-width:768px)
+{
+  .topnav {display: flex; flex-wrap: wrap; clear: both; float: none;}
+  .topnav-right {clear: both; float: none; }
+  .topnav a {font-size: 16px; }
+}
+
+.label{
+  float: left;
+  text-align: left;
+  width: 8em;
+  padding-right: 10em;
+  margin-top: 15px;
+}
+
+/*McDelivery page*/
+.McDeliveryForm{
+  padding: 1%;
+  margin-left: 5%;
+  margin-right: 10%;
+  background-color: #f2eab7;
+  color: #000000;
+  overflow: auto;
+  display: block;
+  float: left;
+}
+
+
+
+
+/*McD App Page*/
+.appLogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 250px;
+  width: 400px;
+}
+
+.installButton{
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 20px;
+  cursor: pointer;
+ 
+}
+
+
+/*Payment page*/
+.formTextBox{
+  width: 100%;
+  padding: 20px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.paymentTextBox{
+  width: 50%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+#wrapper {min-height: calc(100vh - 140px);}
+
+footer {
+  height:120px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.center {
+
+border: none;
+background-color: black;
+
+}
+
+.centerImg {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+
+}
+
+img{
+width: 100%;
+height:auto;
+}
+
+body {
+  background-color: #FFFACD;
+  color: #000;
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  background-color: #FFFACD;
+  color: #000000;
+
+}
+
+h1 {padding-top:20px;
+  text-align: center;
+  margin: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #000000;
+}
+
+h2{
+text-align: center;
+margin: 0px;
+white-space: nowrap;
+overflow: hidden;
+color: #000000;
+}
+
+nav{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+a{
+  padding-bottom: 15px;
+  text-decoration: none;
+  border: 10px;
+  border-color: #ffffff;
+}
+
+input, textarea{
+  display: block;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.orderNow{
+  display: block;
+  float: right;
+  background-color: #000000;
+  color: white;
+  padding: 16px 20px;
+  margin: 100px 200px 0 0;
+  border: none;
+  width: 10%;
+  text-align: center;
+}
+
+
+
+
+.footNav{
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.whiteText{
+  color: white;
+}
+
+
+
+
+.submitButton{
+  display: block;
+  float: right;
+  background-color: #000000;
+  color: white;
+  padding: 16px 10px;
+  margin: 10px 20px 0 0;
+  border: none;
+  width: 80px;
+  text-align: center;
+  
+}
+
+.Organize{
+margin-bottom: 10%;
+}
+
+html, body {
+margin: 0;
+padding: 0;
+height: 100%;
+}
+
+
+
+/*McDelivery Page*/
+@media only screen and (max-width:1024px)
+{
+.McDeliveryForm{
+  padding: 1%;
+  margin-left: 5%;
+  margin-right: 10%;
+  background-color: #f2eab7;
+  color: #000000;
+  overflow: auto;
+  display: block;
+  float: none;
+  margin-bottom: 5%;
+}
+
+.orderNow{
+  display: block;
+  float: none;
+  background-color: #000000;
+  color: white;
+  padding: 16px 20px;
+  margin: 100px 200px 0 350px;
+  border: none;
+  width: 10%;
+  text-align: center;
+}
+  
+}
+
+@media only screen and (max-width:768px)
+{
+  
+.McDeliveryForm{
+  padding: 1%;
+  margin-left: 5%;
+  margin-right: 10%;
+  background-color: #f2eab7;
+  color: #000000;
+  overflow: auto;
+  display: block;
+  float: none;
+  margin-bottom: 5%;
+}
+
+.orderNow{
+  display: block;
+  float: none;
+  background-color: #000000;
+  color: white;
+  padding: 16px 20px;
+  margin: 100px 200px 0 200px;
+  border: none;
+  width: 10%;
+  text-align: center;
+}
+
+}
+
+/*Payment Page*/
+@media only screen and (max-width:1024px)
+{
+.McDeliveryForm{
+  padding: 1%;
+  margin-left: 5%;
+  margin-right: 10%;
+  background-color: #f2eab7;
+  color: #000000;
+  overflow: auto;
+  display: block;
+  float: none;
+  margin-bottom: 5%;
+}
+
+.orderNow{
+  display: block;
+  float: none;
+  background-color: #000000;
+  color: white;
+  padding: 16px 20px;
+  margin: 100px 200px 0 350px;
+  border: none;
+  width: 10%;
+  text-align: center;
+}
+  
+}
+
+@media only screen and (max-width:768px)
+{
+  
+.McDeliveryForm{
+  padding: 1%;
+  margin-left: 5%;
+  margin-right: 10%;
+  background-color: #f2eab7;
+  color: #000000;
+  overflow: auto;
+  display: block;
+  float: none;
+  margin-bottom: 5%;
+}
+
+.orderNow{
+  display: block;
+  float: none;
+  background-color: #000000;
+  color: white;
+  padding: 16px 20px;
+  margin: 100px 200px 0 200px;
+  border: none;
+  width: 10%;
+  text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Menu Page */
+#menu { font-family: Arial, Verdana, sans-serif;
+float:left;
+width: 250px;
+font-weight: bold;
+margin-top: 45px;
+position: sticky; left:0px; top:10px;}
+
+#allMenu, #othersMenu { display:block;
+                background-color: #000;
+                color: white;
+                padding:10px;
+                font-size: 1.1em;
+                border-bottom:0.01em grey solid}
+
+#menu a {text-decoration: none;
+font-size: 1.1em;
+display:block;
+padding:10px;
+background-color: gold;
+border-bottom:0.01em grey solid}
+#menu a:link {color:black;}
+#menu a:visited {color: black;}
+#menu a:hover {background-color:rgb(163, 0, 0); color: white;}
+#menu ul{list-style-type: none;}
+
+#MenuPage h2 {font-family: Arial, Verdana, sans-serif;
+    background-color:darkorange;
+    padding-left:20px;
+    font-size: 1.5em;
+    text-align: left;}
+
+#menuSections { margin-top: 60px;
+        margin-left: 300px;
+        margin-right: 40px;}
+
+#menuSections p {margin-top:0; margin-bottom: 10px;}
+
+#menuSections input {padding: 10px 0 10px 15px;
+            font-size: 1em;
+            width: 50px;}
+
+.foodName { background-color: rgb(241, 217, 138);
+    font-size: 1.3em;
+    font-style: italic; 
+    font-weight: bold;}
+
+.foodPrice {font-size: 1.2em; color: #300; }
+
+.row1, .row2, .row3 {display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;}
+
+.column { margin:5px; 
+text-align: center;
+align-items: center;
+padding-top: 10px;
+background-color: rgb(241, 217, 138);
+display:flex;
+flex-direction: column; flex-basis: 100%; flex: 3; overflow: hidden;}
+
+#menuButton {float: right; margin-right: 40px;}
+
+#menuOrderButton {height: 50px; 
+        width: 300px;
+        font-size: 1.1em;
+        font-weight: bold;
+        background-color: black;
+        color: white; 
+        border-radius: 30px;}
+
+#menuOrderButton:hover {background-color: red;}
+
+#MenuPage img {height: 200px; width: 270px;}
+
+@media only screen and (max-width:1024px)
+{
+body{margin: 0; padding: 0;}
+#MenuPage h2 {font-size: 1.4em;}
+#menu { width: 200px; margin-left: 0;}
+#allMenu, #othersMenu {font-size: 1.05em;}
+#menu a{font-size: 1.05em;}
+#menuSections {margin-left: 250px;}
+#menuSections input {font-size: 0.9em;}
+.foodName {font-size: 1.2em;}
+.foodPrice {font-size: 1.1em;}
+.column { overflow:visible;}  
+
+#menuOrderButton {width: 250px;}
+}
+
+@media only screen and (max-width:768px)
+{
+body{margin: 0; padding: 0;}
+#MenuPage h2 {font-size: 1.3em; width: auto;}
+#menu { width: 130px;}
+#allMenu, #othersMenu {font-size: 1em;}
+#menu a{font-size: 1em;}
+#menuSections {margin-left: 180px;}
+#menuSections input {font-size: 0.9em;}
+.foodName {font-size: 1.1em;}
+.foodPrice {font-size: 1em;} 
+.column { overflow:visible; margin: 2px;} 
+
+#menuOrderButton {width: 200px;}               
+}
+
+
+/*About Us Page*/
+#McdLogo {text-align: center; padding-top: 50px; padding-bottom: 20px;}
+
+#aboutUs { display: flex;
+          justify-content: space-between;
+          font-family: Arial, Verdana, sans-serif;
+          }
+
+#history {flex: 50%; margin: 25px; overflow: hidden;}
+#mission {flex: 50%; margin: 25px; overflow: hidden;}
+
+#historyTitle, #missionTitle {background-color: gold;
+                            font-size: 1.4em;
+                            font-style: italic; 
+                            font-weight: bold;
+                            text-align: center;
+                            padding: 10px;
+                            margin-bottom: 3px;
+                            width: auto;}
+
+#history p {font-size: 1.4em;}
+
+#mission li {font-size: 1.4em;}
+
+#McdLogo img {height: 300px; width: 300px;}
+#history img {height: 350px; width: 705px;}
+#mission img {height: 350px; width: 705px;}
+
+@media only screen and (max-width:1024px)
+{
+    #McdLogo img {height:250px; width: 250px;}
+    #historyTitle, #missionTitle {font-size: 1.3em; padding: 5px;}
+    #history p {font-size: 1.3em;}
+    #mission li {font-size: 1.3em;}
+    #history img {height: 280px; width: 680px;}
+    #mission img {height: 280px; width: 680px;}
+}
+
+
+@media only screen and (max-width:768px)
+{
+    #aboutUs {display: block;}
+    #McdLogo img {height:200px; width: 200px;}
+    #historyTitle, #missionTitle {font-size: 1.2em; padding: 3px; margin-top: 0;}
+    #history p {font-size: 1.2em;}
+    #mission li {font-size: 1.2em;}
+    #history img {height: 200px; width: 600px;}
+    #mission img {height: 200px; width: 600px;}
+}
+
+
+
+/*Home Page*/
+.description{ padding: 0 100px 0 100px;
+  font-weight: bold;
+  font-size: 2.5em;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 100px;}
+#welcome {background-color: #FFD700; 
+      font-size: 2.5em; 
+      font-family: 'Comic Sans MS',Tahoma, sans-serif;
+      box-shadow: 5px 5px 10px red;
+     }
+
+@media only screen and (max-width:1024px)
+{
+  .description {font-size: 1.8em;}
+}
+
+@media only screen and (max-width:768px)
+{
+  .description {padding: 0;
+            font-size: 1.3em;
+            margin-bottom: 50px;}
+}
+
+
+
+/*Q&A Page*/
+table, tr,td{border:1px solid black;
+  border-collapse: collapse;
+  width: 39cm;
+  margin-bottom: 30px;
+  font-weight: bold;
+  margin-left:30px;
+  text-align: center;
+  background-color: orange;
+}
+
+.margin{margin-top: 50px;
+  margin-left:500px;
+font-size: 25px;
+font-weight: bold;} 
+.fontsize{font-size: 30px;
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 20px; 
+  font-weight:bold;}
+  .mainbackground{background-color: orange;}
+  .marginleftbutton{
+    margin-left:70%;
+    display: block;
+  }
+  .textareamargin{
+    width: 100%;
+    padding: 20px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .tittletopmargin{margin-top: 20px; font-weight:bold;}
+  .tabletextcolor{color: aqua;}
+  .tabletextcolor2{color: red;}
+
+@media only screen and (max-width:1024px)
+{
+  body{margin: 0; padding: 0;}
+  
+  table, tr,td{border:1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left:10px;
+    text-align: center;
+  }
+  .tabletextcolor{color: aqua;}
+  .tabletextcolor2{color: red;}
+  textarea{
+    width: 100%;
+    padding: 20px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;}
+.margin{margin-top: 25px;
+margin-left: 250px;
+font-size: 12px;}
+.fontsize{font-size: 20px;
+text-align: center;
+margin-left: 30%;
+margin-top: 20px; 
+font-weight:bold;
+}
+.marginleftbutton{margin-left:200px;}
+
+
+}
+
+@media only screen and (max-width:768px)
+{
+  body{margin: 0; padding: 0;}
+  
+  table, tr,td{border:1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-left:5px;
+    text-align: center;
+    background-color: orange;
+  }
+
+
+.margin{margin-top: 13px;
+margin-left: 125px;
+font-size: 15px;}
+.fontsize{font-size: 18px;
+text-align: center;
+margin-left: 25%;
+margin-top: 20px; 
+font-weight:bold;}
+.tabletextcolor{color: aqua;}
+.tabletextcolor2{color: red;}
+.marginleftbutton{margin-left:20%;}
+}
+
+
+
+/*CSS for Promotions page*/
+.foodName{background-color: rgb(241, 217, 138);
+  font-size: 1.3em;
+  font-style: italic; 
+  font-weight: bold;}
+
+.foodPrice{font-size: 1.2em; color: #300; }
+
+.foodDescription{font-size: 1.2em; font-style: italic; color: #300; }
+
+.row1, .row2{display:flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 100%;}
+
+.column{margin:5px; 
+text-align: center;
+align-items: center;
+padding-top: 10px;
+background-color: rgb(241, 217, 138);
+display:flex;
+flex-direction: column; flex-basis: 100%; flex: 3; overflow: hidden;}
+
+#promotionButton{float: right; margin-right: 40px;}
+
+#promotionOrderButton{height: 50px; 
+      width: 300px;
+      font-size: 1.1em;
+      font-weight: bold;
+      background-color: black;
+      color: white; 
+      border-radius: 30px;}
+
+#promotionOrderButton:hover{background-color: red;}
+
+.border{border-radius: 5px;
+        padding: 30px;}
+
+@media only screen and (max-width:1024px)
+{
+body{margin: 0; padding: 0;}
+.foodName{font-size: 1.2em;}
+.foodPrice{font-size: 1.1em;}
+.foodDescription{font-size: 1.1em;}
+.column{overflow:visible;}  
+
+#promotionOrderButton{width: 250px;}
+}
+
+@media only screen and (max-width:768px)
+{
+body{margin: 0; padding: 0;}
+.foodName{font-size: 1.1em;}
+.foodPrice{font-size: 1em;}
+.foodDescription{font-size: 1.1em;} 
+.column{overflow:visible; margin: 2px;} 
+
+#promotionOrderButton{width: 200px;}               
+}
+
+
+/*CSS for RestaurantLocator page*/
+.resName{background-color: rgb(241, 217, 138);
+font-size: 1.4em;
+font-weight: bold;}
+
+.resAdd{font-size: 1.2em; font-style: italic; color: #300; }
+
+.resTel{font-size: 1.2em; color: #300; }
+
+.row1, .row2{display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;}
+
+.column{margin:5px; 
+text-align: center;
+align-items: center;
+padding-top: 10px;
+background-color: rgb(241, 217, 138);
+display:flex;
+flex-direction: column; flex-basis: 100%; flex: 3; overflow: hidden;}
+
+.border{border-radius: 5px;
+  padding: 30px;}
+
+@media only screen and (max-width:1024px)
+{
+body{margin: 0; padding: 0;}
+.resName{font-size: 1.2em;}
+.resAdd{font-size: 1.1em;}
+.resTel{font-size: 1.1em;}
+.column{overflow:visible;}  
+}
+
+@media only screen and (max-width:768px)
+{
+body{margin: 0; padding: 0;}
+.resName{font-size: 1.1em;}
+.resAdd{font-size: 1em;}
+.resTel{font-size: 1.1em;} 
+.column{overflow:visible; margin: 2px;}               
+}
+
+/*CSS for ContactUs page*/
+input{margin-top: 10px;
+      display: block;}
+
+textarea{margin-top: 10px;
+        display: block;
+        box-sizing: border-box;}
+
+.row1{display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;}
+
+.commentLabel{margin-top: 30px}
+
+input[type=submit]{height: 50px; 
+                width: 300px;
+                font-size: 1.1em;
+                font-weight: bold;
+                background-color: black;
+                color: white; 
+                border-radius: 30px;}
+
+input[type=submit]:hover{background-color: red;}
+
+.border{border-radius: 5px;
+        padding: 30px;}
+
+@media only screen and (max-width:1024px)
+{
+body{margin: 0; padding: 0;}
+.column{overflow:visible;} 
+textarea {max-width: 100%}
+}
+
+@media only screen and (max-width:768px)
+{
+body{margin: 0; padding: 0;} 
+.column{overflow:visible; margin: 2px;}  
+textarea {max-width: 100%}             
+}

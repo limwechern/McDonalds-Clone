@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+        <script src=Validation.js></script>
+    
+        <link rel="stylesheet" href="style.css">
+
+    <title>McD Payment</title>
+</head>
+
+
+
+
+<body>
+    <header class="center">
+        <a href="index.html"><img src="LogoAndName.png" alt="Logo" class="centerImg"></a>
+    
+        
+        <nav class="topnav">
+            <a href="index.html">Home</a>
+            <a href="Menu.html">Menu</a>
+            <a href="Promotions.html" >Promotions</a>
+            <a href="McDelivery.html" class="active">McDelivery</a>
+            <a href="McDApp.html">McD App</a>
+    
+            <div class="topnav-right">
+                <a href="RestaurantLocator.html">Restaurant Locator</a>
+                <a href="AboutUs.html">About Us</a>
+                </div>
+        </nav>
+    </header>
+    <br>
+
+    <main id="wrapper">
+    
+
+
+    <br>
+    
+    <h1>Payment</h1>
+    <br><br>
+
+    <form action="/action_page.php" class="McDeliveryForm">
+        <label class="label">Card Number</label>
+        <input type="text" size="100" class="paymentTextBox" tabindex="1" autofocus  required id="cardNumber" onblur="validatecardnumber">
+        <span id="cardNumberPrompt"></span>
+        <br>
+
+        <label class="label">Name on Card</label>
+        <input type="text" size="100" class="paymentTextBox" tabindex="2" required>
+        <br>
+
+        <label class="label">Expiration Date</label>
+        <input type="text" size="100" class="paymentTextBox" tabindex="3" required>
+        <br>
+
+        <label class="label">CVV</label>
+        <input type="text" size="100" class="paymentTextBox" tabindex="4" required>
+        <br>
+    
+    
+
+        <input type="submit" value="Pay Now" class="submitButton" onclick = "validatecardnumber();">
+    
+    </form>
+
+    
+
+    </main>
+
+    
+
+        <br>
+    <footer>
+        <nav>
+        <a href="ContactUs.html" class="footNav">Contact Us</a>
+        <a href="Q&A.html" class="footNav">Q&A</a>
+        </nav>
+        <br>
+
+        Copyright &copy; 2021 McDonald's Inc
+        
+        <br>
+        <a href="mailto:yourfirstname@support@mcd.com" class="whiteText">support@mcd.com</a>
+    </footer>
+</body>
+</html>
