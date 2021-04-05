@@ -588,7 +588,6 @@ font-weight: bold;}
   font-weight:bold;}
   .mainbackground{background-color: orange;}
   .marginleftbutton{
-    margin-left:70%;
     display: block;
   }
   .textareamargin{
@@ -598,7 +597,10 @@ font-weight: bold;}
     box-sizing: border-box;
   }
   .tittletopmargin{margin-top: 20px; font-weight:bold;}
-  .tabletextcolor{color: aqua;}
+  .tabletextcolor{color: rgb(0, 0, 0);
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
   .tabletextcolor2{color: red;}
 
 @media only screen and (max-width:1024px)
